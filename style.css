@@ -1,0 +1,133 @@
+
+.encabezado {
+    border: 1px solid #d4bb1a;
+    background-color: #182F29;
+}
+.principal {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    align-content: stretch;
+    border: 1px solid #d4bb1a;
+    background-color: #D9ABB6;
+}
+.ladoizq, .ladoder {
+    border: 1px solid #91e969;
+    background-color: #D9ABB6;
+    flex-basis: 25%;
+}
+.flotanteizq, .flotanteder {
+    border: 1px solid #cccccc;
+    position: fixed;
+    top: 100px;
+    }
+.content {
+    border: 1px solid #e9b869;
+    background-color: #BCCFD5;
+    flex-basis: 50%;
+}
+.fondo {
+    border: 1px solid #d4bb1a;
+    background-color: #182F29;
+}
+
+.paginas {
+    border: 1px solid #ffffff;
+    padding: 2px;
+    position: sticky ;
+    top: 550px;
+}
+.paginas button {
+    font-size: 10px;
+}
+header, footer {
+    background-color: #c0dbb2;
+    border: 1px solid #349a05;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    padding-left: 5px;
+    color: #349a05;
+    text-shadow: 1px 1px 1.5px #ffffff;
+    border-left: #256002 solid 7px;
+    border-bottom: #256002 solid 1px;
+    box-shadow: 1px 1px 1px #e1e8e6;
+    
+}
+img {
+    width: 600px;
+}
+main aside nav ul li a {
+    transition: all 500ms ease-in-out;
+}
+
+main aside nav ul li a:visited {
+    color: green;
+}
+main aside nav ul li a:hover {
+    background: #256002;
+    color: rgb(255, 255, 255);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.ejercicios-img {
+    width: 400px;
+}
+
+.contheader {
+    display:flex ;
+    position: relative;
+    height: 30px;
+}
+.contheader-position {
+    position: absolute;
+    top: 5px;
+    left: 225px;
+}
+.navheader li {
+    display: inline;
+}
+#FUENTES a {
+    display: block;
+    color: #349a05;
+    transition: background 1s, color 1s;
+}
+#FUENTES a:hover {
+    background: #256002;
+    color: rgb(255, 255, 255);
+}
+#FUENTES {
+    border: 1px solid rgb(220, 155, 155);
+    background-color: #c49ba5;
+}
+
+.videoanexo { 
+    height: 500px;
+    width: 500px;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #cccccc;
+    width: max-content;
+}
+.dropdown-content a {
+    display: block;
+    color: green;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background: #022f60;
+    color: rgb(255, 255, 255);
+}
+
